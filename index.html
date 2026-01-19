@@ -46,15 +46,31 @@
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Sans+SC:wght@300;400;500;700&display=swap');
       body {
-       <body>
-    <div id="root"></div>
-    <script type="module" src="/index.tsx"></script> 
-  </body>
+        background-color: #FAFBFC;
+        font-family: 'Inter', 'Noto Sans SC', sans-serif;
+        color: #1F2937;
+      }
+      /* Hide scrollbar for clean UI */
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.37.0"
+  }
+}
+</script>
+</head>
   <body>
     <div id="root"></div>
-        <body>
-    <div id="root"></div>
-    <script type="module" src="./index.tsx"></script> 
-  </body>
   </body>
 </html>
