@@ -21,3 +21,10 @@ export default defineConfig(({ mode }) => {
       }
     };
 });
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+export default defineConfig({
+  plugins: [react()],
+  base: './', // 确保加上这一行，这会让资源使用相对路径
+})
