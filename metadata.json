@@ -1,0 +1,8 @@
+{
+  "name": "Copy of Amazon Professionalist",
+  "description": "An expert compliance tool for Amazon sellers, featuring real-time intel, policy consultation, and automated listing diagnosis.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
